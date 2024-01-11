@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		023E00F32B488EF70073E5CF /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E00F22B488EF70073E5CF /* FeedView.swift */; };
 		023E00F52B4894460073E5CF /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E00F42B4894460073E5CF /* FeedCell.swift */; };
+		023E00F72B49DF6D0073E5CF /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E00F62B49DF6D0073E5CF /* ExploreView.swift */; };
+		023E00F92B49DFAA0073E5CF /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E00F82B49DFAA0073E5CF /* UserCell.swift */; };
+		023E00FB2B49E4AD0073E5CF /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E00FA2B49E4AD0073E5CF /* NotificationsView.swift */; };
+		023E00FD2B4B65CE0073E5CF /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E00FC2B4B65CE0073E5CF /* NotificationCell.swift */; };
+		023E00FF2B4BC9DF0073E5CF /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E00FE2B4BC9DF0073E5CF /* CurrentUserProfileView.swift */; };
+		023E01012B4BCE270073E5CF /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E01002B4BCE270073E5CF /* PostGridView.swift */; };
+		023E01032B4BCE3D0073E5CF /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E01022B4BCE3D0073E5CF /* ProfileHeaderView.swift */; };
+		023E01072B4BD3880073E5CF /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023E01062B4BD3880073E5CF /* UserStatView.swift */; };
 		028EC3332B4725E20053AE75 /* TikTokTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EC3322B4725E20053AE75 /* TikTokTutorialApp.swift */; };
 		028EC3352B4725E20053AE75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028EC3342B4725E20053AE75 /* ContentView.swift */; };
 		028EC3372B4725E30053AE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028EC3362B4725E30053AE75 /* Assets.xcassets */; };
@@ -19,6 +27,14 @@
 /* Begin PBXFileReference section */
 		023E00F22B488EF70073E5CF /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		023E00F42B4894460073E5CF /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		023E00F62B49DF6D0073E5CF /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		023E00F82B49DFAA0073E5CF /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		023E00FA2B49E4AD0073E5CF /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		023E00FC2B4B65CE0073E5CF /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		023E00FE2B4BC9DF0073E5CF /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		023E01002B4BCE270073E5CF /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		023E01022B4BCE3D0073E5CF /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		023E01062B4BD3880073E5CF /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		028EC32F2B4725E20053AE75 /* TikTokTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028EC3322B4725E20053AE75 /* TikTokTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokTutorialApp.swift; sourceTree = "<group>"; };
 		028EC3342B4725E20053AE75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +54,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		023E01042B4BD2DF0073E5CF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				023E01022B4BCE3D0073E5CF /* ProfileHeaderView.swift */,
+				023E01002B4BCE270073E5CF /* PostGridView.swift */,
+				023E01062B4BD3880073E5CF /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		023E01052B4BD2EA0073E5CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				023E00FE2B4BC9DF0073E5CF /* CurrentUserProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		028EC3262B4725E20053AE75 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +175,8 @@
 		02E359EF2B47278D00C0C934 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				023E00F62B49DF6D0073E5CF /* ExploreView.swift */,
+				023E00F82B49DFAA0073E5CF /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -156,6 +192,8 @@
 		02E359F12B47278F00C0C934 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				023E01042B4BD2DF0073E5CF /* Components */,
+				023E01052B4BD2EA0073E5CF /* View */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -163,6 +201,8 @@
 		02E359F22B47279000C0C934 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				023E00FA2B49E4AD0073E5CF /* NotificationsView.swift */,
+				023E00FC2B4B65CE0073E5CF /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -268,10 +308,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				023E00F32B488EF70073E5CF /* FeedView.swift in Sources */,
+				023E00FD2B4B65CE0073E5CF /* NotificationCell.swift in Sources */,
+				023E01012B4BCE270073E5CF /* PostGridView.swift in Sources */,
+				023E01072B4BD3880073E5CF /* UserStatView.swift in Sources */,
 				023E00F52B4894460073E5CF /* FeedCell.swift in Sources */,
 				028EC3352B4725E20053AE75 /* ContentView.swift in Sources */,
 				028EC3332B4725E20053AE75 /* TikTokTutorialApp.swift in Sources */,
+				023E00F72B49DF6D0073E5CF /* ExploreView.swift in Sources */,
+				023E01032B4BCE3D0073E5CF /* ProfileHeaderView.swift in Sources */,
 				02E359F82B47295F00C0C934 /* MainTabView.swift in Sources */,
+				023E00FF2B4BC9DF0073E5CF /* CurrentUserProfileView.swift in Sources */,
+				023E00F92B49DFAA0073E5CF /* UserCell.swift in Sources */,
+				023E00FB2B49E4AD0073E5CF /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
